@@ -16,6 +16,7 @@ if (!in_array($paginaAtual, $paginasPublicas, true)) {
     <meta charset="UTF-8">
     <title>ICLab - Laboratório de Inteligência Computacional</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/decimal.js@10.4.3/decimal.min.js"></script>
 </head>
 <body>
 
