@@ -124,7 +124,15 @@ button.secundario {
     background: #334155;
 }
 
+ .botao.secundario {
+    background: #334155;
+}
+
 button.secundario:hover {
+    background: #475569;
+}
+
+.botao.secundario:hover {
     background: #475569;
 }
 
@@ -257,6 +265,61 @@ button.secundario:hover {
 
 .explicacao-passos strong {
     color: #7dd3fc;
+}
+
+.grafico-modos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grafico-modos button {
+    margin-top: 0;
+}
+
+.grafico-modos .botao {
+    margin-top: 0;
+}
+
+.grafico-modos button.ativo {
+    background: #0ea5e9;
+    box-shadow: 0 0 12px rgba(14, 165, 233, 0.45);
+}
+
+.matrix-editor-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 6px;
+    max-width: 420px;
+}
+
+.matrix-cell {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    background: #020617;
+    color: #cbd5e1;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.matrix-cell.ativo {
+    background: #0ea5e9;
+    border-color: #38bdf8;
+    color: #ffffff;
+}
+
+.bloco-calculos {
+    white-space: pre-wrap;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 12px;
+    line-height: 1.45;
+    max-height: 320px;
+    overflow: auto;
 }
 
 .tabela {
